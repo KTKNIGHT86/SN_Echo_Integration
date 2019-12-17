@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Intent" max_length="40" name="x_snc_amazon_echo_intent" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element hint="If an intent is always available, it can be called at any time and isn't limited to being called after another intent." label="Always available?" max_length="40" name="always_available" type="boolean"/>
@@ -12,14 +11,14 @@
         <element hint="(Optional) If querying the intents and an order is needed, this field can be used." label="Order" max_length="40" name="order" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Choose either PlainText or SSML. See URL for SSML markup documentation." label="Output speech format" mandatory="true" max_length="40" name="output_speech_format" type="string">
             <choice>
-                <element label="SSML" sequence="0" value="SSML"/>
-                <element label="PlainText" sequence="1" value="PlainText"/>
+                <element inactive_on_update="false" label="SSML" sequence="0" value="SSML"/>
+                <element inactive_on_update="false" label="PlainText" sequence="1" value="PlainText"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" hint="Choose either PlainText or SSML. See URL for SSML markup documentation." label="Reprompt speech format" max_length="40" name="reprompt_speech_format" type="string">
             <choice>
-                <element label="PlainText" sequence="0" value="PlainText"/>
-                <element label="SSML" sequence="1" value="SSML"/>
+                <element inactive_on_update="false" label="PlainText" sequence="0" value="PlainText"/>
+                <element inactive_on_update="false" label="SSML" sequence="1" value="SSML"/>
             </choice>
         </element>
         <element default="(function(current, content, attributes, ER, IntentUtils){&#13;&#10;&#9;/*&#13;&#10;&#9;ER.setOutputSpeech(current.output_speech_format, &quot;Text goes here&quot;, &quot;SSML goes here&quot;);&#13;&#10;&#9;ER.setReprompt(current.reprompt_speech_format, &quot;Text goes here&quot;, &quot;SSML goes here&quot;);&#13;&#10;&#9;ER.setAttributes(attrObj); = Object of session attributes&#13;&#10;&#9;ER.setEnd(current.intent_ends_session); = Should this end the session?&#13;&#10;&#9;*/&#13;&#10;&#13;&#10;&#9;result = ER.response; //Required&#13;&#10;})(current, content, attributes, new EchoResponseBuilder(), new IntentUtils());" label="Script" max_length="8000" name="script" type="script"/>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="reprompt_speech_format" table="x_snc_amazon_echo_intent" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reprompt_speech_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PlainText</label>
+            <language>en</language>
+            <name>x_snc_amazon_echo_intent</name>
+            <sequence>0</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>kknight</sys_created_by>
+            <sys_created_on>2019-12-17 20:28:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>032ba6911b350090d53bfd12dd4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kknight</sys_updated_by>
+            <sys_updated_on>2019-12-17 20:28:36</sys_updated_on>
+            <value>PlainText</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>reprompt_speech_format</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>SSML</label>
+            <language>en</language>
+            <name>x_snc_amazon_echo_intent</name>
+            <sequence>1</sequence>
+            <sys_class_name>sys_choice</sys_class_name>
+            <sys_created_by>kknight</sys_created_by>
+            <sys_created_on>2019-12-17 20:28:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>432ba6911b350090d53bfd12dd4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>kknight</sys_updated_by>
+            <sys_updated_on>2019-12-17 20:28:36</sys_updated_on>
+            <value>SSML</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>reprompt_speech_format</element>
+            <name>x_snc_amazon_echo_intent</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>kknight</sys_created_by>
+            <sys_created_on>2019-12-17 20:28:36</sys_created_on>
+            <sys_id>472ba6911b350090d53bfd12dd4bcb15</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>reprompt_speech_format</sys_name>
+            <sys_package display_value="Amazon Echo" source="x_snc_amazon_echo">101eb7da13a21200d0143d622244b063</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Amazon Echo">101eb7da13a21200d0143d622244b063</sys_scope>
+            <sys_update_name>sys_choice_x_snc_amazon_echo_intent_reprompt_speech_format</sys_update_name>
+            <sys_updated_by>kknight</sys_updated_by>
+            <sys_updated_on>2019-12-17 20:28:36</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Amazon Echo">101eb7da13a21200d0143d622244b063</application>
+        <file_path/>
+        <instance_id>e0fec855dbcafb849df22f17d4961974</instance_id>
+        <instance_name>viewdev</instance_name>
+        <name>sys_choice_x_snc_amazon_echo_intent_reprompt_speech_format</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="reprompt_speech_format" table="x_snc_amazon_echo_intent" version="3"><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>reprompt_speech_format</element><hint/><inactive>false</inactive><label>PlainText</label><language>en</language><name>x_snc_amazon_echo_intent</name><sequence>0</sequence><sys_class_name>sys_choice</sys_class_name><sys_created_by>kknight</sys_created_by><sys_created_on>2019-12-17 20:28:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>032ba6911b350090d53bfd12dd4bcb15</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kknight</sys_updated_by><sys_updated_on>2019-12-17 20:28:36</sys_updated_on><value>PlainText</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>reprompt_speech_format</element><hint/><inactive>false</inactive><label>SSML</label><language>en</language><name>x_snc_amazon_echo_intent</name><sequence>1</sequence><sys_class_name>sys_choice</sys_class_name><sys_created_by>kknight</sys_created_by><sys_created_on>2019-12-17 20:28:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>432ba6911b350090d53bfd12dd4bcb15</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>kknight</sys_updated_by><sys_updated_on>2019-12-17 20:28:36</sys_updated_on><value>SSML</value></sys_choice><sys_choice_set action="INSERT_OR_UPDATE"><element>reprompt_speech_format</element><name>x_snc_amazon_echo_intent</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>kknight</sys_created_by><sys_created_on>2019-12-17 20:28:36</sys_created_on><sys_id>472ba6911b350090d53bfd12dd4bcb15</sys_id><sys_mod_count>0</sys_mod_count><sys_name>reprompt_speech_format</sys_name><sys_package display_value="Amazon Echo" source="x_snc_amazon_echo">101eb7da13a21200d0143d622244b063</sys_package><sys_policy/><sys_scope display_value="Amazon Echo">101eb7da13a21200d0143d622244b063</sys_scope><sys_update_name>sys_choice_x_snc_amazon_echo_intent_reprompt_speech_format</sys_update_name><sys_updated_by>kknight</sys_updated_by><sys_updated_on>2019-12-17 20:28:36</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>647749385</payload_hash>
+        <record_name>Intent.Reprompt speech format</record_name>
+        <reverted_from/>
+        <source>255dc12a1bd98010d53bfd12dd4bcb83</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2019-11-26 14:19:38</sys_created_on>
+        <sys_id>433bea911b350090d53bfd12dd4bcbcd</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>16ea814fc900000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Choice list</type>
+        <update_guid>033bea91873500902adab8ad3e3b51cd</update_guid>
+        <update_guid_history>033bea91873500902adab8ad3e3b51cd:647749385</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>kknight</sys_created_by>
+        <sys_created_on>2019-12-17 20:28:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>472ba6911b350090d53bfd12dd4bcb15</sys_id>
+        <sys_metadata>472ba6911b350090d53bfd12dd4bcb15</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>reprompt_speech_format</sys_name>
+        <sys_package display_value="Amazon Echo" source="x_snc_amazon_echo">101eb7da13a21200d0143d622244b063</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Amazon Echo">101eb7da13a21200d0143d622244b063</sys_scope>
+        <sys_scope_delete display_value="">9caed5f6a03943b0b6175f886698cc59</sys_scope_delete>
+        <sys_update_name>sys_choice_x_snc_amazon_echo_intent_reprompt_speech_format</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_snc_amazon_echo_intent_reprompt_speech_format">433bea911b350090d53bfd12dd4bcbcd</sys_update_version>
+        <sys_updated_by>kknight</sys_updated_by>
+        <sys_updated_on>2019-12-17 20:28:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Log" max_length="40" name="x_snc_amazon_echo_log" type="collection">
         <element label="Attributes" max_length="1000" name="attributes" type="string"/>
         <element label="Content" max_length="2000" name="content" type="string"/>
@@ -11,14 +10,17 @@
         <element attributes="edge_encryption_enabled=true" label="Spoken phrase" max_length="500" name="spoken_phrase" type="string"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
             <choice>
-                <element label="Inbound" sequence="0" value="Inbound"/>
-                <element label="Outbound" sequence="1" value="Outbound"/>
+                <element inactive_on_update="false" label="Inbound" sequence="0" value="Inbound"/>
+                <element inactive_on_update="false" label="Outbound" sequence="1" value="Outbound"/>
             </choice>
         </element>
         <index name="index">
-            <element name="intent"/>
+            <element name="session"/>
         </index>
         <index name="index2">
+            <element name="intent"/>
+        </index>
+        <index name="index3">
             <element name="in_response_to"/>
         </index>
     </element>
